@@ -4,13 +4,13 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import CustomHeader from './Components/customHeader'; // Adjust the path if needed
 import CustomHeader2 from './Components/customHeader2'; // Adjust the path if needed
 import CustomHeaderMain from './Components/customHeaderMain'; // Adjust the path if needed
-import Signup from "./app/sreens/signUp";
+import Signup from "./app/screens/signUp";
 import { MenuProvider } from 'react-native-popup-menu';
 
-import Login from "./app/sreens/login";
-import ChildrenGrid from "./app/sreens/ChildrenGrid";
-import ChildDetails from "./app/sreens/ChildDetails";
-import AdminPage from "./app/sreens/AdminPage";
+import Login from "./app/screens/login";
+import ChildrenGrid from "./app/screens/ChildrenGrid";
+import ChildDetails from "./app/screens/ChildDetails";
+import AdminPage from "./app/screens/AdminPage";
 
 const Stack = createNativeStackNavigator();
 
